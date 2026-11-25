@@ -1,0 +1,88 @@
+# Nmap 7.993 scan initiated Wed Nov 25 01:49:20 2026 as: nmap -sV -p 80,443 -T3 -oN nmap_basic.txt yalos-express.netlify.app
+Nmap scan report for yalos-express.netlify.app (54.232.119.62)
+Host is up (0.29s latency).
+Other addresses for yalos-express.netlify.app (not scanned): 2600:1f1e:7c1:c300::258
+rDNS record for 54.232.119.62: ec2-54-232-119-62.sa-east-1.compute.amazonaws.com
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Golang net/http server
+443/tcp open  ssl/http Golang net/http server
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.993%I=7%D=11/25%Time=6B06228D%P=i686-pc-windows-windows%
+SF:r(GetRequest,1B3D,"HTTP/1\.1\x20503\x20Service\x20Unavailable\r\nConten
+SF:t-Type:\x20text/html;\x20charset=UTF-8\r\nContent-Length:\x206696\r\nCo
+SF:nnection:\x20close\r\nP3P:\x20CP=\"CAO\x20PSA\x20OUR\"\r\nExpires:\x20T
+SF:hu,\x2001\x20Jan\x201970\x2000:00:00\x20GMT\r\nCache-Control:\x20no-sto
+SF:re,\x20no-cache,\x20must-revalidate,\x20post-check=0,\x20pre-check=0\r\
+SF:nPragma:\x20no-cache\r\n\r\n<!DOCTYPE\x20html>\n\n<html\x20lang=\"en\">
+SF:\n<head>\n\x20\x20\x20\x20<base\x20href=\"/login/\">\n\x20\x20\x20\x20<
+SF:meta\x20charset=\"utf-8\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"X-UA-
+SF:Compatible\"\x20content=\"IE=edge\">\n\x20\x20\x20\x20<meta\x20name=\"v
+SF:iewport\"\x20content=\"width=device-width,\x20initial-scale=\.85\">\n\x
+SF:20\x20\x20\x20<meta\x20http-equiv=\"pragma\"\x20content=\"no-cache\">\n
+SF:\x20\x20\x20\x20<title>Web\x20Page\x20Blocked</title>\n\x20\x20\x20\x20
+SF:<link\x20rel=\"stylesheet\"\x20href=\"css/latofonts\.css\">\n\x20\x20\x
+SF:20\x20<style>\n\x20\x20\x20\x20\x20\x20\x20\x20body\x20{\n\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#e8ebeb;\n\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20Tahoma,\x20V
+SF:erdana,\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0font-size:\x2016px;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20m
+SF:argin:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x2
+SF:0#070808;\n\x20\x20\x20\x20\x20\x20\x20\x20}\n\n\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20a:link\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20c
+SF:olor:\x20#0ba4e8;\n\x20")%r(HTTPOptions,1B3D,"HTTP/1\.1\x20503\x20Servi
+SF:ce\x20Unavailable\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nCo
+SF:ntent-Length:\x206696\r\nConnection:\x20close\r\nP3P:\x20CP=\"CAO\x20PS
+SF:A\x20OUR\"\r\nExpires:\x20Thu,\x2001\x20Jan\x201970\x2000:00:00\x20GMT\
+SF:r\nCache-Control:\x20no-store,\x20no-cache,\x20must-revalidate,\x20post
+SF:-check=0,\x20pre-check=0\r\nPragma:\x20no-cache\r\n\r\n<!DOCTYPE\x20htm
+SF:l>\n\n<html\x20lang=\"en\">\n<head>\n\x20\x20\x20\x20<base\x20href=\"/l
+SF:ogin/\">\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x20\x20\x20
+SF:<meta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge\">\n\x20\x
+SF:20\x20\x20<meta\x20name=\"viewport\"\x20content=\"width=device-width,\x
+SF:20initial-scale=\.85\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"pragma\"
+SF:\x20content=\"no-cache\">\n\x20\x20\x20\x20<title>Web\x20Page\x20Blocke
+SF:d</title>\n\x20\x20\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"css/la
+SF:tofonts\.css\">\n\x20\x20\x20\x20<style>\n\x20\x20\x20\x20\x20\x20\x20\
+SF:x20body\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20backgroun
+SF:d-color:\x20#e8ebeb;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20f
+SF:ont-family:\x20Tahoma,\x20Verdana,\x20sans-serif;\n\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20font-size:\x2016px;\n\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20margin:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20color:\x20#070808;\n\x20\x20\x20\x20\x20\x20\x20\x20}
+SF:\n\n\x20\x20\x20\x20\x20\x20\x20\x20a:link\x20{\n\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20color:\x20#0ba4e8;\n\x20");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.993%T=SSL%I=7%D=11/25%Time=6B062296%P=i686-pc-windows-w
+SF:indows%r(GetRequest,92,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20
+SF:Tue,\x2024\x20Nov\x202026\x2023:49:47\x20GMT\r\nServer:\x20Netlify\r\nX
+SF:-Nf-Request-Id:\x2001M87ZEBP34SAB1XC7KNYMAPPZ\r\nConnection:\x20close\r
+SF:\n\r\n")%r(HTTPOptions,92,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\
+SF:x20Tue,\x2024\x20Nov\x202026\x2023:49:50\x20GMT\r\nServer:\x20Netlify\r
+SF:\nX-Nf-Request-Id:\x2001M87ZEEF1Q47NGKPRXK5YPF5H\r\nConnection:\x20clos
+SF:e\r\n\r\n")%r(FourOhFourRequest,92,"HTTP/1\.1\x20400\x20Bad\x20Request\
+SF:r\nDate:\x20Tue,\x2024\x20Nov\x202026\x2023:49:52\x20GMT\r\nServer:\x20
+SF:Netlify\r\nX-Nf-Request-Id:\x2001M87ZEG8XABXDWZ2XGQ58JFGJ\r\nConnection
+SF::\x20close\r\n\r\n")%r(GenericLines,67,"HTTP/1\.1\x20400\x20Bad\x20Requ
+SF:est\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20
+SF:close\r\n\r\n400\x20Bad\x20Request")%r(RTSPRequest,67,"HTTP/1\.1\x20400
+SF:\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\n
+SF:Connection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(Help,67,"HTTP/1\.
+SF:1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=u
+SF:tf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(SSLSessio
+SF:nReq,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/pl
+SF:ain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Requ
+SF:est")%r(LPDString,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Typ
+SF:e:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x
+SF:20Bad\x20Request")%r(SIPOptions,67,"HTTP/1\.1\x20400\x20Bad\x20Request\
+SF:r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20clos
+SF:e\r\n\r\n400\x20Bad\x20Request")%r(Socks5,67,"HTTP/1\.1\x20400\x20Bad\x
+SF:20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnectio
+SF:n:\x20close\r\n\r\n400\x20Bad\x20Request")%r(OfficeScan,A3,"HTTP/1\.1\x
+SF:20400\x20Bad\x20Request:\x20missing\x20required\x20Host\x20header\r\nCo
+SF:ntent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n
+SF:\r\n400\x20Bad\x20Request:\x20missing\x20required\x20Host\x20header");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Nov 25 01:50:42 2026 -- 1 IP address (1 host up) scanned in 81.89 seconds
