@@ -56,3 +56,5 @@ FUTURE_CS_01/
 - Reading tool output critically matters: three ZAP alerts belonged to browser background traffic, not the target, and one "suspicious comment" was a false positive.
 - A tool's automatic risk rating is a starting point. I rated the CSP issue Low rather than ZAP's Medium because scripts were already restricted.
 - Responsible testing means defining scope and leaving sensitive areas untouched.
+
+[Download the full report (PDF)](report/FUTURE_CS_01_Vulnerability_Assessment_Report.pdf)
